@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>sp2 test</title>
+	<style>
+		*{padding:0;margin:0;}
+		html{height: 100%;}
+		body{overflow: hidden;position: relative;height: 100%;width:100%;}
+		#wrap{text-align: center;min-width:1000px;width:100%;position: absolute;top:0;transition: top 0.8s;}
+		header{border-bottom: 4px solid #bc162c;}
+		footer{background: url(images/temp_footer_bg.jpg) repeat-x;height:121px;}
+		.sec{height:100vh;line-height: 100vh;font-size:10em;}
+		.sec1{height:calc(100vh - 62px);background-color: #fdd;}
+		.sec2{background-color: #fdf;}
+		.sec3{background-color: #ffd;}
+	</style>
+</head>
+<body>
+	<div id="wrap">
+		<header><img src="images/temp_header.jpg" alt=""></header>
+
+		<section class="sec sec1">section 1</section>
+		<section class="sec sec2">section 2</section>
+		<section class="sec sec3">
+			section 3 - <span id="txt">1</span>
+		</section>
+
+		<footer id="foot"><img src="images/temp_footer.jpg" alt=""></footer>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
