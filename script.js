@@ -9,7 +9,6 @@ var sec3Txt = document.getElementById('txt');
 var sec3Cnt = 0;
 var sec3MaxCnt = 3;
 
-var status = 'section_scroll';
 
 function wheelEvent(e){
 	if(wheelCheck == false){
@@ -19,10 +18,6 @@ function wheelEvent(e){
 				secCnt--;
 		}else{
 			if(secCnt < secLength){
-
-
-
-// aaa
 				if(sec3InlineEvent == false){
 					secCnt++;
 					if(secCnt == 3){
